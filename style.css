@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.parent {
+  max-width: 1920px;
+  height: 850px;
+  width: 1500px;
+
+  margin: 5px;
+}
+/* header */
+.parent .header {
+
+  height: 70px;
+  width: 1400px;
+  margin: 0 auto;
+}
+.parent .header .logo {
+  height: 40px;
+  width: 85px;
+  margin: 10px;
+  padding: 10px;
+  border: solid black;
+  text-align: center;
+}
+.parent .header .navbar {
+  height: 70px;
+  width: 600px;
+
+  float: right;
+
+}
+
+.parent .header .navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  padding:25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Description */
+            /* Left */
+.parent .description_g  {
+    background-color: black;
+    color: white;
+    height: 295px;
+    width: 1350px;
+    margin: 20px 60px;
+    border:solid  2px white ;
+  }
+  .parent .description_g .description {
+    color: white;
+    height: 260px;
+    width: 1300px;
+    margin: 15px 20px;
+    
+    border:solid  2px white ;
+  }
+  
+  .parent .description .desc_left {
+    width: 50%;
+    height: 100%;
+    font-size: 60px;  
+    text-align: center;
+    font-family: solway;
+  }
+            /* Right */
+   .parent .description .desc_right {
+    width: 50%;
+    height: 100%;
+    font-size: 50px;  
+    float: right;
+  }
+  .parent .description .desc_right .lettre {
+    width: 10%;
+    height: 80%;
+   font-size: 200px;
+  }
+  .parent .description .desc_right .parag {
+    width: 90%;
+    height: 70%;
+    padding: 40px 0 0 0;
+   font-size: 40px;
+  }
+
+  /* Article */
+  .parent .article{
+    height: 350px;
+    width: 1350px;
+    margin: 10px 65px;
+  }
+  .parent .article .artc_left{
+    height: 100%;
+    width: 50%;
+  }
+  .parent .article .artc_left .img{
+    height: 80%;
+    width: 50%;
+    padding: 30px ;
+  }
+  .parent .article .artc_left .desc{
+    height: 80%;
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+
+  .parent .article .artc_right .img{
+    height: 80%;
+    width: 50%;
+    padding: 30px ;
+  }
+  .parent .article .artc_right .desc{
+    height: 80%;
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+
+
+  .parent .article .artc_right{
+    height: 100%;
+    width: 50%;
+  }
+   /* Footer */
+.parent .footer{
+    height: 50px;
+    width: 1000px;
+    margin: 30px 0;
+    font-size: 30px;
+}
+.parent .footer .lf{
+    height: 50px;
+    width: 60%;
+    padding-left: 170px;
+    text-align: center;
+}
+.parent .footer .rf{
+    height: 50px;
+    width: 200px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@font-face {
+    font-family: solway;
+    src: url(fonts/Solway/Solway-Bold.ttf);
+}
+  
+
+
+
